@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: aqua;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fizz {
+    background-color: blueviolet;
+}
+
+.buzz{
+    background-color: yellow;
+}
+
+.fizzbuzz{
+    background-color: rgb(47, 255, 0);
+}
